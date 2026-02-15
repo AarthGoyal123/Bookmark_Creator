@@ -2,6 +2,13 @@
 
 A production-ready bookmark manager built with **Next.js (App Router)**, **Supabase Auth (Google OAuth)**, and **Supabase Database**.
 
+## Demonstration
+
+
+https://github.com/user-attachments/assets/6766c081-4c43-4fa4-b1a1-331c8f437d82
+
+
+
 ## 🚀 Features
 
 - **Google OAuth**: Secure sign-in using Google.
