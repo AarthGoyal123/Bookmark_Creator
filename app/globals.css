@@ -1,0 +1,52 @@
+:root {
+  --background: #fafafa;
+  --foreground: #333;
+  --card-bg: #fff;
+  --card-border: #ececec;
+  --card-shadow: rgba(0,0,0,0.05);
+  --input-bg: #fff;
+  --input-border: #ddd;
+  --primary: #0070f3;
+  --secondary: #666;
+  --header-bg: #fff;
+}
+
+[data-theme='dark'] {
+  --background: #111;
+  --foreground: #eee;
+  --card-bg: #1e1e1e;
+  --card-border: #333;
+  --card-shadow: rgba(0,0,0,0.3);
+  --input-bg: #222;
+  --input-border: #444;
+  --primary: #0070f3;
+  --secondary: #999;
+  --header-bg: #1e1e1e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+h1, h2, h3, h4 {
+  color: var(--foreground);
+}
+
+a {
+  color: var(--primary);
+}
+
+input, textarea, select {
+  background-color: var(--input-bg);
+  color: var(--foreground);
+  border: 1px solid var(--input-border);
+}
